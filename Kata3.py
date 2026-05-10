@@ -1,14 +1,12 @@
 import requests
 import pandas as pd
 import time
-import csv
-import random
 from datetime import datetime, timedelta
 
 # -----------------------------
 # CONFIG
 # -----------------------------
-API_KEY = "YOUR_API_KEY_HERE"  # move to env var in production
+API_KEY = "scdlSKxKL0yjvpAJyk9C4qbcT6Z6iVsAAEnF17lO"  # move to env var in production
 BASE_URL = "https://api.nasa.gov/DONKI/GST"
 START_DATE = "2024-01-01"
 END_DATE = "2024-03-01"
